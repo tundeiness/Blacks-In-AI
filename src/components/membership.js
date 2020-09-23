@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react';
 
 const Membership = () => (
@@ -27,10 +28,22 @@ const Membership = () => (
       </div>
       <hr />
       <div className="row statistics">
-        <div className="col-lg-3 stats-one">Stats-1</div>
-        <div className="col-lg-3 stats-one">Stats-2</div>
-        <div className="col-lg-3 stats-one">Stats-3</div>
-        <div className="col-lg-3 stats-one">Stats-4</div>
+        <div className="col-lg-3 stats-one">
+          <h4>5999</h4>
+          <p>We've grown from this number to that number of members over this period of time.</p>
+        </div>
+        <div className="col-lg-3 stats-two">
+          <h4>24+</h4>
+          <p>Total number of countries with members in BAI.</p>
+        </div>
+        <div className="col-lg-3 stats-three">
+          <h4>50+</h4>
+          <p>Total number of universities around the world with members in BAI.</p>
+        </div>
+        <div className="col-lg-3 stats-four">
+          <h4>100+</h4>
+          <p>Another metric that showcases an interesting aspect of membership to get people to join.</p>
+        </div>
       </div>
     </div>
   </div>

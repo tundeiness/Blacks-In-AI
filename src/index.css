@@ -117,7 +117,7 @@ code {
 /* Membership Components */
 
 .member-wrapper {
-  background-color: rgb(45, 163, 179);
+  background-color: rgb(41, 128, 139);
 }
 
 .member-col-left {
@@ -163,11 +163,31 @@ code {
   text-transform: uppercase;
 }
 
-.button:hover{
+.button:hover {
   text-decoration: none;
 }
 
-.statistics{
+.statistics {
   margin-top: 3rem;
+  /* margin-bottom: 3rem; */
+}
+
+.statistics > div > h4 {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.statistics > div > p {
+  color: #fff;
+  font-size: .85rem;
+  line-height: 2;
+  word-spacing: .4rem;
+}
+
+.stats-one,
+.stats-two,
+.stats-three,
+.stats-four {
+  margin-bottom: 3rem;
 }
 
