@@ -26,22 +26,22 @@ code {
   z-index: 9999;
 }
 
-#header-container{
+#header-container {
   display: inline-block !important;
 }
 
-.sub-container{
+.sub-container {
   margin-top: 1.5rem;
 }
 
-.sub-container > li{
+.sub-container > li {
   list-style-type: none;
   text-transform: uppercase;
   font-size: .8rem;
   font-weight: 900;
 }
 
-.sub-container > li > a:hover{
+.sub-container > li > a:hover {
   text-decoration-line: none;
 }
 
@@ -58,7 +58,7 @@ code {
 
 
 
-.sub-container > li:last-child{
+.sub-container > li:last-child {
   display: block;
   width: 6rem;
   background-color: orange;
@@ -71,7 +71,7 @@ code {
 /* Main component */
 
 
-#main{
+#main {
   border: 2px solid green;
   height: 1500px;
   margin-top: 84px;
@@ -79,39 +79,95 @@ code {
 
 /* Introduction component */
 
-.container-wrapper{
+.container-wrapper {
   background-color: #ffffff;
   border-bottom: 2px solid green;
 }
 
-#container-intro{
+#container-intro {
   border: 2px solid #000;
   margin-top: 2.5rem;
   margin-bottom: 3.5rem;
 }
 
-.intro-statements{
+.intro-statements {
   margin-top: 2rem;
   margin-bottom: 2rem;
   /* padding-left: 1rem; */
 }
 
-.intro-statements > h1{
+.intro-statements > h1 {
   font-weight: bold;
   margin-top: 2.5rem;
   margin-left: 1.2rem;
 }
 
-.intro-statements > p{
+.intro-statements > p {
   color: grey;
   font-size: 1.2rem;
   margin-left: 1.2rem;
   margin-top: 1rem;
 }
 
-.intro-image{
+.intro-image {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
+/* Membership Components */
+
+.member-wrapper {
+  background-color: rgb(45, 163, 179);
+}
+
+.member-col-left {
+  margin-top: 6rem;
+  margin-bottom: 12rem;
+}
+
+.member-col-right {
+  margin-top: 6rem;
+}
+
+.member-col-right > div > h4 {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.member-col-right > div > p {
+  color: #ffffff;
+}
+
+.member-col-right > div {
+  margin-bottom: 3.5rem;
+}
+
+.left-matter > h2 {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.button {
+  background-color: #000;
+  border: none;
+  border-radius: 2.5rem;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: .7rem;
+  /* margin: 2px 1px; */
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.button:hover{
+  text-decoration: none;
+}
+
+.statistics{
+  margin-top: 3rem;
+}
 
