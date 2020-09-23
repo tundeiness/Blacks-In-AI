@@ -13,11 +13,7 @@ code {
 }
 
 
-#main{
-  border: 2px solid green;
-  height: 1500px;
-  margin-top: 84px;
-}
+
 
 /* Header component */
 
@@ -27,6 +23,7 @@ code {
   top: 0;
   width: 100%;
   background-color: #ffffff;
+  z-index: 9999;
 }
 
 #header-container{
@@ -69,4 +66,41 @@ code {
   padding-top: .18rem;
   padding-bottom: .11rem;
   border-radius: 2rem;
+}
+
+/* Main component */
+
+
+#main{
+  border: 2px solid green;
+  height: 1500px;
+  margin-top: 84px;
+}
+
+/* Introduction component */
+
+
+
+#container-intro{
+  border: 2px solid #000;
+  margin-top: 2.5rem;
+}
+
+.intro-statements{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.intro-statements > h1{
+  font-weight: bold;
+}
+
+.intro-statements > p{
+  color: grey;
+  font-size: 1.2rem;
+}
+
+.intro-image{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
