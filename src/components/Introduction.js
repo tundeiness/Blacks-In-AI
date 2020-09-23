@@ -1,11 +1,11 @@
 import React from 'react';
 
 const Introduction = () => (
-  <div className="container-fluid">
+  <div className="container-fluid container-wrapper">
     <div className="container" id="container-intro">
       <div className="row">
         <div className="col-lg-7 intro-statements">
-          <h1>An intro sentence about membership</h1>
+          <h1>An intro sentence about membership.</h1>
           <p>It has been placed here soley to demonstrate the look and feel of finished, typeset text and its only for show so she who searches for mening here will be sorely diasappointed.</p>
         </div>
         <div className="col-lg-5 intro-image">

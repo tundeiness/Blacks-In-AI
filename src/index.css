@@ -79,7 +79,9 @@ code {
 
 /* Introduction component */
 
-
+.container-wrapper{
+  background-color: #ffffff;
+}
 
 #container-intro{
   border: 2px solid #000;
@@ -87,20 +89,25 @@ code {
 }
 
 .intro-statements{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  /* padding-left: 1rem; */
 }
 
 .intro-statements > h1{
   font-weight: bold;
+  margin-top: 2.5rem;
+  margin-left: 1.2rem;
 }
 
 .intro-statements > p{
   color: grey;
   font-size: 1.2rem;
+  margin-left: 1.2rem;
+  margin-top: 1rem;
 }
 
 .intro-image{
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
