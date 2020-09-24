@@ -196,7 +196,7 @@ code {
 
 .testimony-wrapper{
   background-color: #ffffff;
-  border-color: orange;
+  /* border-color: orange; */
 }
 
 .testimony-card{
@@ -215,4 +215,68 @@ code {
   height: 45vh !important;
   object-fit: cover;
 }
+
+/* Member Lists */
+
+.mem-wrapper {
+  background-color: #fff;
+}
+
+.container > h3 {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  font-weight: bolder;
+}
+
+.single-card {
+  margin-bottom: 3rem;
+}
+
+.card {
+  border: none !important;
+}
+
+.card-body > h5 {
+  font-weight: bold;
+  margin-left: -16px !important;
+}
+
+.card-body > p {
+  font-size: .85rem;
+  line-height: 2;
+  word-spacing: .2rem;
+  color: gray;
+  margin-left: -16px !important;
+}
+
+.card-footer > button {
+  border: none !important;
+  margin-right: .5rem;
+}
+
+.button-directory {
+  background-color: #208AAE;
+  border: none;
+  border-radius: 2.5rem;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: .7rem;
+  /* margin: 2px 1px; */
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.button-directory:hover {
+  text-decoration: none;
+}
+
+#view-button{
+  margin-bottom: 5rem;
+}
+
+
 
