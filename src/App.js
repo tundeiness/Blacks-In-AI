@@ -1,4 +1,5 @@
 import React from 'react';
+import 'react-alice-carousel/lib/alice-carousel.css';
 import './App.css';
 import Header from './components/Header';
 import Introduction from './components/Introduction';
