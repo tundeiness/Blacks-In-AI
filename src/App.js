@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Introduction from './components/Introduction';
 import Membership from './components/membership';
+import Testimonial from './components/testimonial';
 
 const App = () => (
   <>
@@ -13,6 +14,7 @@ const App = () => (
       </div> */}
       <Introduction />
       <Membership />
+      <Testimonial />
     </div>
   </>
 );

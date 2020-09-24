@@ -66,6 +66,7 @@ code {
   padding-top: .18rem;
   padding-bottom: .11rem;
   border-radius: 2rem;
+  margin-top: -3px;
 }
 
 /* Main component */
@@ -74,7 +75,7 @@ code {
 #main {
   border: 2px solid green;
   height: 1500px;
-  margin-top: 84px;
+  margin-top: 80px;
 }
 
 /* Introduction component */
@@ -189,5 +190,18 @@ code {
 .stats-three,
 .stats-four {
   margin-bottom: 3rem;
+}
+
+/* Testimonial Components */
+
+.testimony-wrapper{
+  background-color: #ffffff;
+  border-color: orange;
+}
+
+.testimony-card{
+  /* background-color: grey; */
+  background-color: #E8F1F2;
+
 }
 
