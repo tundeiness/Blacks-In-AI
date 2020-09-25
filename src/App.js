@@ -6,6 +6,7 @@ import Introduction from './components/Introduction';
 import Membership from './components/membership';
 import Testimonial from './components/testimonial';
 import Members from './components/members';
+import Call from './components/call';
 
 const App = () => (
   <>
@@ -18,6 +19,7 @@ const App = () => (
       <Membership />
       <Testimonial />
       <Members />
+      <Call />
     </div>
   </>
 );
