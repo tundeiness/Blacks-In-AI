@@ -13,7 +13,11 @@ code {
 }
 
 
+/* font-family: 'Overpass', sans-serif; */
 
+/* font-family: 'PT Serif', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=PT+Serif:wght@400;700&display=swap');
 
 /* Header component */
 
@@ -324,8 +328,111 @@ code {
   color: #ffffff;
 }
 
+
+
 /* Footer  */
 
 .footer-wrapper {
-  /* background-color: #000; */
+  background-color: #211f1c;
+}
+
+.footer-col-1, .footer-col-2 {
+  margin-top: 5rem;
+}
+
+.footer-row-details > .col-lg-4 {
+  color: #ffffff;
+}
+
+.col-lg-4 > h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-family: 'Overpass', sans-serif;
+}
+
+.footer-introduction {
+  font-size: .85rem;
+  line-height: 2;
+  word-spacing: .5rem;
+  font-family: 'Overpass', sans-serif;
+}
+
+.donate-button {
+  color: #fff;
+  background-color: orange;
+  text-align: center;
+  padding-top: .6rem;
+  padding-bottom: .5rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  font-size: .7rem;
+  font-family: 'Overpass', sans-serif;
+  font-weight: bold;
+  letter-spacing: .1rem;
+}
+
+.donate-button:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.col-lg-2 > p, .col-lg-2 > h6 {
+  color: #ffffff;
+}
+
+.col-lg-2 > h6 {
+  text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: 900;
+  font-family: 'PT Serif', serif;
+  letter-spacing: .1rem;
+}
+
+.footer-brands {
+  color: #fff;
+}
+
+.fa-twitter {
+  margin-left: .8rem;
+}
+
+.col-lg-2 > p {
+  font-size: .85rem;
+  line-height: 2;
+  word-spacing: .2rem;
+  font-family: 'Overpass', sans-serif;
+}
+
+.col-lg-2 > a {
+  color: #ffffff;
+  font-family: 'Overpass', sans-serif;
+}
+
+.footer-about,
+.footer-program,
+.footer-member,
+.footer-partner {
+  display: inline-block;
+  font-size: .85rem;
+  line-height: 2;
+  margin-bottom: 1.2rem;
+}
+
+.update > h6 {
+  text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: 900;
+  font-family: 'PT Serif', serif;
+  /* need diffent font type */
+}
+
+.update > p {
+  font-size: .85rem;
+  line-height: 2;
+  width: 12rem;
+  font-family: 'Overpass', sans-serif;
+  /* word-spacing: .9rem; */
 }
