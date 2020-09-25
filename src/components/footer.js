@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import '../fontawesome';
@@ -35,14 +36,22 @@ const Footer = () => (
         <div className="col-lg-4 footer-col-1 update">
           <h6>Get updates</h6>
           <p>Sign up for our newletter to get updates on our work.</p>
-          <a href="#" className="footer-button">call us</a>
+          <div className="input-group mb-3">
+            <input type="text" className="form-control" placeholder="Your email address" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+            <div className="input-group-append">
+              <button className="btn " type="button">Subscribe</button>
+            </div>
+          </div>
         </div>
+
       </div>
-      <div className="row footer-row-copyright">
-        <p>&copyright 2020 Black in AI</p>
-      </div>
+
+    </div>
+    <div className="row footer-row-copyright">
+      <p>&copyright 2020 Black in AI</p>
     </div>
   </div>
+
 );
 
 export default Footer;

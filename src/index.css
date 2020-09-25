@@ -436,3 +436,34 @@ code {
   font-family: 'Overpass', sans-serif;
   /* word-spacing: .9rem; */
 }
+
+input[type="text"] {
+  font-family: 'Overpass', sans-serif;
+}
+
+
+.input-group > input {
+  font-size: .85rem;
+  height: 3rem;
+  border-radius: 2rem !important;
+  position: relative;
+  width: 30rem;
+  /* padding-top: .2rem !important; */
+}
+
+.input-group-append > .btn {
+  font-size: .85rem;
+  background-color: #000;
+  text-transform: uppercase !important;
+  /* height: 3rem; */
+  border-radius: 2rem !important;
+  margin-top: .15rem;
+  margin-bottom: .1rem;
+  margin-left: -6.7rem;
+  color: #ffffff;
+
+}
+
+.input-group-append > .btn:hover {
+  color: #ffffff;
+}
