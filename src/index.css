@@ -25,7 +25,7 @@ code {
 /* Header component */
 
 #nav {
-  /* border: 2px solid red; */
+  border: 2px solid red;
   position: fixed;
   top: 0;
   width: 100%;
@@ -124,8 +124,10 @@ code {
   line-height: 2;
   word-spacing: .1rem;
   margin-left: 1.2rem;
+  margin-right: 1.4rem;
   margin-top: 1rem;
   font-family: 'Overpass', sans-serif;
+  padding-right: 5rem;
 }
 
 .intro-image {
