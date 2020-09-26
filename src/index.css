@@ -124,6 +124,12 @@ code {
 
 /* Membership Components */
 
+
+/* font-family: 'Overpass', sans-serif; */
+
+/* font-family: 'PT Serif', serif; */
+
+
 .member-wrapper {
   background-color: #117fa7;
 }
@@ -140,10 +146,16 @@ code {
 .member-col-right > div > h4 {
   color: #ffffff;
   font-weight: bold;
+  font-family: 'Playfair Display', serif;
+
 }
 
 .member-col-right > div > p {
-  color: #ffffff;
+
+  color: antiquewhite;
+  font-size: .9rem;
+  line-height: 2;
+  font-family: 'Overpass', sans-serif;
 }
 
 .member-col-right > div {
@@ -154,18 +166,23 @@ code {
   font-weight: bold;
   color: white;
   margin-bottom: 1rem;
+  font-family: 'Playfair Display', serif;
 }
 
 .button {
-  background-color: #000;
+  background-color: #211f1c;
   border: none;
   border-radius: 2.5rem;
   color: white;
-  padding: 10px 30px;
+  padding-top: .85rem;
+  padding-bottom: .6rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: .7rem;
+  font-family: 'Overpass', sans-serif;
   /* margin: 2px 1px; */
   cursor: pointer;
   text-transform: uppercase;
@@ -190,6 +207,7 @@ code {
   font-size: .85rem;
   line-height: 2;
   word-spacing: .4rem;
+  font-family: 'Overpass', sans-serif;
 }
 
 .stats-one,
@@ -203,13 +221,10 @@ code {
 
 .testimony-wrapper{
   background-color: #ffffff;
-  /* border-color: orange; */
+
 }
-
 .testimony-card{
-  /* background-color: grey; */
   background-color: #E8F1F2;
-
 }
 
 .carousel-container {
@@ -245,10 +260,6 @@ code {
 .card {
   border: none !important;
 }
-
-/* font-family: 'Overpass', sans-serif; */
-
-/* font-family: 'PT Serif', serif; */
 
 
 .card-body > h5 {
@@ -307,8 +318,6 @@ code {
 }
 
 .call-wrapper > .container > .row {
-  /* margin-top: 2rem; */
-  /* margin-bottom: 2rem; */
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -347,8 +356,6 @@ code {
   text-decoration: none;
   color: #ffffff;
 }
-
-
 
 /* Footer  */
 
@@ -415,12 +422,17 @@ code {
   color: #fff;
 }
 
-.footer-brands:hover {
-  color: powderblue;
-}
 
 .fa-twitter {
   margin-left: .8rem;
+}
+
+.fa-twitter:hover {
+  color: powderblue;
+}
+
+.fa-facebook:hover {
+  color: blue;
 }
 
 .col-lg-2 > p {

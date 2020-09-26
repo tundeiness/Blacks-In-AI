@@ -18,10 +18,10 @@ const Footer = () => (
           <p>abc@blackinai.org</p>
           <div className="footer-socials">
             <a target="_blank" rel="noreferrer" href="facebook.com" className="icon footer-brands fa-facebook">
-              <FontAwesomeIcon className="footer-icon" icon={['fab', 'facebook']} style={{ color: 'powder-blue' }} size="lg" />
+              <FontAwesomeIcon className="footer-icon" icon={['fab', 'facebook']} size="lg" />
             </a>
             <a target="_blank" rel="noreferrer" href="twitter.com" className="icon footer-brands fa-twitter">
-              <FontAwesomeIcon className="footer-icon" icon={['fab', 'twitter']} style={{ color: 'powder-blue' }} size="lg" />
+              <FontAwesomeIcon className="footer-icon" icon={['fab', 'twitter']} size="lg" />
             </a>
           </div>
         </div>
