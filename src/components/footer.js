@@ -37,7 +37,7 @@ const Footer = () => (
           <h6>Get updates</h6>
           <p>Sign up for our newletter to get updates on our work.</p>
           <div className="input-group mb-3">
-            <input type="text" className="form-control" placeholder="Your email address" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+            <input type="text" className="form-control" placeholder="Your email address" aria-label="Sender's Email" aria-describedby="basic-addon2" />
             <div className="input-group-append">
               <button className="btn " type="button">Subscribe</button>
             </div>
@@ -48,7 +48,7 @@ const Footer = () => (
 
     </div>
     <div className="row footer-row-copyright">
-      <p>&copyright 2020 Black in AI</p>
+      <p>copyright 2020 Black in AI</p>
     </div>
   </div>
 
