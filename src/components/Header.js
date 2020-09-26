@@ -10,10 +10,10 @@ const Header = () => (
         <div className="col-lg-4" />
         <div className="col-lg-6">
           <ul className="d-flex flex-row justify-content-between sub-container">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another </a></li>
-            <li><a href="#">Something </a></li>
-            <li><a href="#">Separated </a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Programs </a></li>
+            <li><a href="#">Membership</a></li>
+            <li><a href="#">Partnership </a></li>
             <li><a href="#">Donate</a></li>
           </ul>
         </div>

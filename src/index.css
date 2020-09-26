@@ -25,7 +25,7 @@ code {
 /* Header component */
 
 #nav {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   position: fixed;
   top: 0;
   width: 100%;
@@ -46,6 +46,7 @@ code {
   text-transform: uppercase;
   font-size: .8rem;
   font-weight: 900;
+  font-family: 'Overpass', sans-serif;
 }
 
 .sub-container > li > a:hover {
