@@ -80,20 +80,26 @@ code {
 
 
 #main {
-  border: 2px solid green;
-  height: 1500px;
+  /* border: 2px solid green; */
+  /* height: 1500px; */
   margin-top: 80px;
 }
 
 /* Introduction component */
 
+/* font-family: 'Overpass', sans-serif; */
+
+/* font-family: 'PT Serif', serif; */
+
+
 .container-wrapper {
   background-color: #ffffff;
-  border-bottom: 2px solid green;
+  padding-top: .7rem;
+  /* border-bottom: 2px solid green; */
 }
 
 #container-intro {
-  border: 2px solid #000;
+  /* border: 2px solid #000; */
   margin-top: 2.5rem;
   margin-bottom: 3.5rem;
 }
@@ -108,13 +114,17 @@ code {
   font-weight: bold;
   margin-top: 2.5rem;
   margin-left: 1.2rem;
+  font-family: 'PT Serif', serif;
 }
 
 .intro-statements > p {
   color: grey;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  line-height: 2;
+  word-spacing: .1rem;
   margin-left: 1.2rem;
   margin-top: 1rem;
+  font-family: 'Overpass', sans-serif;
 }
 
 .intro-image {
@@ -124,23 +134,17 @@ code {
 
 /* Membership Components */
 
-
-/* font-family: 'Overpass', sans-serif; */
-
-/* font-family: 'PT Serif', serif; */
-
-
 .member-wrapper {
   background-color: #117fa7;
 }
 
 .member-col-left {
-  margin-top: 6rem;
+  margin-top: 3.5rem;
   margin-bottom: 12rem;
 }
 
 .member-col-right {
-  margin-top: 6rem;
+  margin-top: 3.5rem;
 }
 
 .member-col-right > div > h4 {
