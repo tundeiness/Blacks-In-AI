@@ -429,6 +429,14 @@ code {
   font-size: .85rem;
   line-height: 2;
   margin-bottom: 1.2rem;
+  width: 4rem;
+}
+
+.footer-about,
+.footer-program,
+.footer-member,
+.footer-partner:hover {
+  text-decoration: none !important;
 }
 
 .update > h6 {
