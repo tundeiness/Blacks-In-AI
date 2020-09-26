@@ -233,7 +233,9 @@ code {
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 5rem;
+  font-size: 2rem;
   font-weight: bolder;
+  font-family: 'PT Serif', serif;
 }
 
 .single-card {
@@ -244,9 +246,15 @@ code {
   border: none !important;
 }
 
+/* font-family: 'Overpass', sans-serif; */
+
+/* font-family: 'PT Serif', serif; */
+
+
 .card-body > h5 {
   font-weight: bold;
   margin-left: -16px !important;
+  font-family: 'PT Serif', serif;
 }
 
 .card-body > p {
@@ -255,6 +263,7 @@ code {
   word-spacing: .2rem;
   color: gray;
   margin-left: -16px !important;
+  font-family: 'Overpass', sans-serif;
 }
 
 .card-footer > button {
@@ -267,11 +276,16 @@ code {
   border: none;
   border-radius: 2.5rem;
   color: white;
-  padding: 10px 30px;
+  padding-top: .8rem;
+  padding-bottom: .6rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  letter-spacing: .1rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: .7rem;
+  font-family: 'Overpass', sans-serif;
   /* margin: 2px 1px; */
   cursor: pointer;
   text-transform: uppercase;
