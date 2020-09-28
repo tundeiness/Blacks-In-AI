@@ -119,6 +119,10 @@ code {
   color: #000  ;
 }
 
+.sub-container > li:nth-child(4) a {
+  margin-right: .3rem;
+}
+
 .sub-container > li:nth-child(5) a {
   color: #ffffff  ;
 }
@@ -127,13 +131,14 @@ code {
 
 .sub-container > li:last-child {
   display: block;
-  width: 6rem;
+  width: 5rem;
   background-color: orange;
   text-align: center;
   padding-top: .1rem;
   padding-bottom: .1rem;
   border-radius: 2rem;
-  margin-top: -3px;
+  margin-top: -2px;
+  margin-left: -3px;
 }
 
 .nav-link {
@@ -557,28 +562,104 @@ input[type="text"] {
 }
 
 
+
+.input-group {
+  position: relative;
+  background-color: #fff;
+  border-radius: 2rem;
+}
+
 .input-group > input {
   font-size: .85rem;
-  height: 3rem;
+  height: 2.8rem;
   border-radius: 2rem !important;
-  position: relative;
-  width: 30rem;
+  padding-left: .7rem;
+  border: none !important;
+  /* position: relative; */
+  /* width: 45rem; */
   /* padding-top: .2rem !important; */
 }
+
+/* .input-group > input:focus {
+  outline: none!important;
+} */
 
 .input-group-append > .btn {
   font-size: .85rem;
   background-color: #000;
   text-transform: uppercase !important;
-  /* height: 3rem; */
   border-radius: 2rem !important;
   margin-top: .15rem;
   margin-bottom: .1rem;
   margin-left: -6.7rem;
   color: #ffffff;
 
+
 }
 
 .input-group-append > .btn:hover {
   color: #ffffff;
+}
+
+
+.subscribe-input {
+  padding: 1rem;
+  border: 0;
+  margin-top: .3rem;
+  outline: none !important;
+  border: none !important;
+}
+
+.subscribe-input:focus {
+  outline: none !important;
+  border: none !important;
+}
+
+.input-group > input:focus {
+  outline: none !important;
+  border: none !important;
+}
+
+
+
+.btn-wrapper {
+  background: #fff;
+  border-radius: 2rem !important;
+  padding-right: 2px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  font-family: 'Overpass', sans-serif;
+}
+
+.btn-subscribe {
+  font-size: .75rem;
+  background-color: #000;
+  text-transform: uppercase !important;
+  color: #ffffff;
+  border-radius: 2rem;
+  padding-right: .9rem;
+  padding-left: .9rem;
+  outline: none !important;
+  border: none !important;
+}
+
+.btn-subscribe:hover {
+  outline: none !important;
+  border: none !important;
+}
+
+.footer-row-copyright > container > p {
+
+  /* margin-top: 4rem; */
+  /* padding-top: 1.5rem;
+  padding-bottom: 1.5rem; */
+}
+
+.cont-content {
+  color: #fff;
+  font-family: 'Overpass', sans-serif;
+  font-size: .8rem;
+  /* padding-left: .8rem; */
+  margin-top: 5rem;
+  margin-bottom: 3rem;
 }

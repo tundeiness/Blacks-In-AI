@@ -26,9 +26,9 @@ const Footer = () => (
           </div>
         </div>
 
-        <div className="col-lg-2 footer-col-2 d-flex flex-column">
+        <div className="col-lg-2 footer-col-2 d-flex flex-column justify-content-sm-center">
           <h6>Links</h6>
-          <a href="#" className="footer-about">About us</a>
+          <a href="#" className="footer-about ">About us</a>
           <a href="#" className="footer-program">Programs</a>
           <a href="#" className="footer-member">Membership</a>
           <a href="#" className="footer-partner">Partership</a>
@@ -37,9 +37,9 @@ const Footer = () => (
           <h6>Get updates</h6>
           <p>Sign up for our newletter to get updates on our work.</p>
           <div className="input-group mb-3">
-            <input type="text" className="form-control" placeholder="Your email address" aria-label="Sender's Email" aria-describedby="basic-addon2" />
-            <div className="input-group-append">
-              <button className="btn " type="button">Subscribe</button>
+            <input type="text" className="form-control subscribe-input" placeholder="Your email address" aria-label="Sender's Email" aria-describedby="basic-addon2" />
+            <div className="input-group-append btn-wrapper">
+              <button className=" btn-subscribe " type="button">Subscribe</button>
             </div>
           </div>
         </div>
@@ -48,7 +48,9 @@ const Footer = () => (
 
     </div>
     <div className="row footer-row-copyright">
-      <p>copyright 2020 Black in AI</p>
+      <div className="container">
+        <p className="cont-content p-3 p-md-0 p-lg-0">&#169; 2020 Black in AI</p>
+      </div>
     </div>
   </div>
 
