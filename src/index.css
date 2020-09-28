@@ -1,21 +1,9 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
 
 
-/* font-family: 'Overpass', sans-serif; */
-
-/* font-family: 'PT Serif', serif; */
 
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Playfair+Display:wght@400;500;600;700;800;900&family=PT+Serif:wght@400;700&display=swap');
 
@@ -25,13 +13,13 @@ code {
 /* Header component */
 
 #nav {
-  /* border: 2px solid red; */
+
   position: fixed;
   top: 0;
   width: 100%;
   background-color: #ffffff;
   z-index: 9999;
-  /* justify-content: space-evenly; */
+
 }
 
 
@@ -39,7 +27,7 @@ code {
 
 
 .navbar-toggler {
-  /* margin-left: -4rem; */
+
   border: 1px solid grey !important;
   /* display: flex; */
   /* flex-direction: column; */
@@ -48,42 +36,9 @@ code {
 }
 
 
-@media (min-width: 320px) {
-  .navbar-toggler {
-    /* margin-top: .2rem; */
-  }
-}
-
-
-@media screen and (max-width: 320px) {
-  .navbar-toggler {
-    /* margin-top: .2rem; */
-  }
-}
-
-@media screen and (max-width: 768px) {
-
-}
-
-@media screen and (max-width: 992px) {
-
-}
-
-@media screen and (max-width: 1200px) {
-
-}
-
-
-
-
-
-
-
 .navbar-toggler > span {
-  background-color: black !important;
+  background-color: grey !important;
   height: .1rem;
-  /* margin-bottom: .3rem;
-  margin-top:  .2rem; */
 }
 
 
@@ -91,10 +46,6 @@ code {
   justify-content: flex-end;
 }
 
-
-#header-container {
-  /* display: inline-block !important; */
-}
 
 .sub-container {
   margin-top: 0.5rem;
