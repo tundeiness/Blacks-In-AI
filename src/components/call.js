@@ -4,12 +4,12 @@ const Call = () => (
   <div className="container-fluid call-wrapper">
     <div className="container">
       <div className="row">
-        <div className="col-lg-4">
-          <p>Become a member</p>
+        <div className="col-sm-6 col-md-6 col-lg-6 d-flex justify-content-sm-center justify-content-center  justify-content-md-start justify-content-lg-start">
+          <p className="d-inline-block">Become a member</p>
         </div>
-        <div className="col-lg-4" />
-        <div className="col-lg-4 ">
-          <a href="#" className="cta-button">Apply to Join</a>
+        {/* <div className="col-lg-4" /> */}
+        <div className="col-xs-6 col-sm-6 col-md-6 col-lg-6 d-flex justify-content-sm-center justify-content-center justify-content-sm-end  justify-content-md-end justify-content-lg-end">
+          <a href="#" className="cta-button my-auto h-25 pt-1 pb-4 pl-3 pr-3">Apply to Join</a>
         </div>
       </div>
     </div>

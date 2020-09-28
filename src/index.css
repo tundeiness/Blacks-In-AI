@@ -398,7 +398,7 @@ code {
   padding-bottom: 2rem;
 }
 
-.call-wrapper > .container > .row > .col-lg-4 > p{
+.call-wrapper > .container > .row > .col-lg-6 > p{
   margin-top: .9rem;
   color: #ffffff;
   font-weight: bolder;
@@ -408,10 +408,12 @@ code {
 
 .cta-button{
   /* margin-top: .9rem; */
-  margin-left: 13rem;
+  /* margin-left: 13rem; */
   background-color: #000;
   border: none;
-  border-radius: 2.5rem;
+  /* border-radius: 2.5rem; */
+  /* width: 8rem; */
+  /* border-radius:1.9rem;
   color: white;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -422,8 +424,12 @@ code {
   display: inline-block;
   font-size: .7rem;
   cursor: pointer;
-  text-transform: uppercase;
-  margin-top: 1rem;
+  text-transform: uppercase; */
+  /* margin-top: 1rem; */
+  font-size: .9rem;
+  color: #fff;
+  border-radius:1.9rem;
+  cursor: pointer;
   font-family: 'Overpass', sans-serif;
 
 }
