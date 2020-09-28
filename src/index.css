@@ -101,26 +101,18 @@ body {
 
 
 #main {
-  /* border: 2px solid green; */
-  /* height: 1500px; */
   margin-top: 87px;
 }
 
 /* Introduction component */
 
-/* font-family: 'Overpass', sans-serif; */
-
-/* font-family: 'PT Serif', serif; */
-
 
 .container-wrapper {
   background-color: #ffffff;
   padding-top: .7rem;
-  /* border-bottom: 2px solid green; */
 }
 
 #container-intro {
-  /* border: 2px solid #000; */
   margin-top: 2.5rem;
   margin-bottom: 3.5rem;
 }
@@ -128,7 +120,6 @@ body {
 .intro-statements {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  /* padding-left: 1rem; */
 }
 
 .intro-statements > h1 {
@@ -210,7 +201,6 @@ body {
   display: inline-block;
   font-size: .7rem;
   font-family: 'Overpass', sans-serif;
-  /* margin: 2px 1px; */
   cursor: pointer;
   text-transform: uppercase;
 }
@@ -221,7 +211,6 @@ body {
 
 .statistics {
   margin-top: 3rem;
-  /* margin-bottom: 3rem; */
 }
 
 .statistics > div > h4 {
@@ -262,14 +251,10 @@ body {
 .sliderimg{
   max-width: 100% !important;
   height: auto !important;
-  /* height: 45vh !important; */
   object-fit: cover;
 }
 
 .alice-carousel__wrapper {
-  /* max-width: 100%; */
-  /* max-width: 500px; */
-  /* height: auto; */
   height: auto !important;
 }
 
@@ -370,25 +355,9 @@ body {
 }
 
 .cta-button{
-  /* margin-top: .9rem; */
-  /* margin-left: 13rem; */
+
   background-color: #000;
   border: none;
-  /* border-radius: 2.5rem; */
-  /* width: 8rem; */
-  /* border-radius:1.9rem;
-  color: white;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  padding-top: .75rem;
-  padding-bottom: .6rem;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: .7rem;
-  cursor: pointer;
-  text-transform: uppercase; */
-  /* margin-top: 1rem; */
   text-transform: uppercase;
   font-size: .8rem;
   color: #fff;
@@ -516,7 +485,6 @@ body {
   font-size: .8rem;
   font-weight: 900;
   font-family: 'PT Serif', serif;
-  /* need diffent font type */
 }
 
 .update > p {
@@ -524,7 +492,6 @@ body {
   line-height: 2;
   width: 12rem;
   font-family: 'Overpass', sans-serif;
-  /* word-spacing: .9rem; */
 }
 
 input[type="text"] {
@@ -545,14 +512,9 @@ input[type="text"] {
   border-radius: 2rem !important;
   padding-left: .7rem;
   border: none !important;
-  /* position: relative; */
-  /* width: 45rem; */
-  /* padding-top: .2rem !important; */
 }
 
-/* .input-group > input:focus {
-  outline: none!important;
-} */
+
 
 .input-group-append > .btn {
   font-size: .85rem;
@@ -618,18 +580,12 @@ input[type="text"] {
   border: none !important;
 }
 
-.footer-row-copyright > container > p {
 
-  /* margin-top: 4rem; */
-  /* padding-top: 1.5rem;
-  padding-bottom: 1.5rem; */
-}
 
 .cont-content {
   color: #fff;
   font-family: 'Overpass', sans-serif;
   font-size: .8rem;
-  /* padding-left: .8rem; */
   margin-top: 5rem;
   margin-bottom: 3rem;
 }
