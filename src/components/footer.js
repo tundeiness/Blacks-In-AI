@@ -10,7 +10,7 @@ const Footer = () => (
         <div className="col-lg-4 footer-col-1">
           <h4>BLACK IN AI</h4>
           <p className="footer-introduction">Short sentence stating the nature of the organization e.g. tax-exempt, non-profit and possibly registration number.</p>
-          <a href="#" className="donate-button">Donate</a>
+          <a href="/donate" className="donate-button">Donate</a>
         </div>
         <div className="col-lg-2 footer-col-2">
           <h6>Contact us</h6>
@@ -28,10 +28,10 @@ const Footer = () => (
 
         <div className="col-lg-2 footer-col-2 d-flex flex-column justify-content-sm-center">
           <h6>Links</h6>
-          <a href="#" className="footer-about ">About us</a>
-          <a href="#" className="footer-program">Programs</a>
-          <a href="#" className="footer-member">Membership</a>
-          <a href="#" className="footer-partner">Partership</a>
+          <a href="/about" className="footer-about ">About us</a>
+          <a href="/programs" className="footer-program">Programs</a>
+          <a href="/members" className="footer-member">Membership</a>
+          <a href="/partnership" className="footer-partner">Partership</a>
         </div>
         <div className="col-lg-4 footer-col-1 update">
           <h6>Get updates</h6>

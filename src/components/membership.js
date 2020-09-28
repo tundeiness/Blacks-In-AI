@@ -8,7 +8,7 @@ const Membership = () => (
         <div className="col-lg-6 member-col-left">
           <div className="left-matter">
             <h2>Here goes a bold header about becoming a member.</h2>
-            <a href="#" className="button">Apply to Join</a>
+            <a href="/apply" className="button">Apply to Join</a>
           </div>
         </div>
         <div className="col-lg-6 member-col-right">

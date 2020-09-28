@@ -12,7 +12,7 @@ import image7 from '../assets/img/7.png';
 import image8 from '../assets/img/8.png';
 
 class Members extends React.Component {
-  constructor(props) {
+  constructor() {
     super();
     this.state = {
       memberList: [
@@ -168,7 +168,7 @@ class Members extends React.Component {
             {listings}
           </div>
           <div className="row d-flex justify-content-center" id="view-button">
-            <a href="#" className="button-directory">View full directory</a>
+            <a href="/directory" className="button-directory">View full directory</a>
           </div>
         </div>
       </div>
