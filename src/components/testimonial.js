@@ -9,7 +9,7 @@ const Testimonial = () => {
     0: {
       items: 1,
     },
-    300: {
+    320: {
       items: 1,
     },
     600: {
@@ -25,9 +25,9 @@ const Testimonial = () => {
       <div className="container testimony-card">
         <div className="row carousel-container">
           <AliceCarousel autoPlay responsive={responsive} autoPlayInterval="3000" className="carousel">
-            <img src={image1} alt="testimonials" className="img-fluid sliderimg" />
-            <img src={image2} alt="testimonials" className="img-fluid sliderimg" />
-            <img src={image3} alt="testimonials" className="img-fluid sliderimg" />
+            <img src={image1} alt="testimonials" className=" sliderimg" />
+            <img src={image2} alt="testimonials" className=" sliderimg" />
+            <img src={image3} alt="testimonials" className=" sliderimg" />
           </AliceCarousel>
         </div>
       </div>
