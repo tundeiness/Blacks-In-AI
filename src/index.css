@@ -26,22 +26,22 @@ code {
   z-index: 9999;
 }
 
-#header-container{
+#header-container {
   display: inline-block !important;
 }
 
-.sub-container{
+.sub-container {
   margin-top: 1.5rem;
 }
 
-.sub-container > li{
+.sub-container > li {
   list-style-type: none;
   text-transform: uppercase;
   font-size: .8rem;
   font-weight: 900;
 }
 
-.sub-container > li > a:hover{
+.sub-container > li > a:hover {
   text-decoration-line: none;
 }
 
@@ -58,7 +58,7 @@ code {
 
 
 
-.sub-container > li:last-child{
+.sub-container > li:last-child {
   display: block;
   width: 6rem;
   background-color: orange;
@@ -66,41 +66,217 @@ code {
   padding-top: .18rem;
   padding-bottom: .11rem;
   border-radius: 2rem;
+  margin-top: -3px;
 }
 
 /* Main component */
 
 
-#main{
+#main {
   border: 2px solid green;
   height: 1500px;
-  margin-top: 84px;
+  margin-top: 80px;
 }
 
 /* Introduction component */
 
+.container-wrapper {
+  background-color: #ffffff;
+  border-bottom: 2px solid green;
+}
 
-
-#container-intro{
+#container-intro {
   border: 2px solid #000;
   margin-top: 2.5rem;
+  margin-bottom: 3.5rem;
 }
 
-.intro-statements{
+.intro-statements {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  /* padding-left: 1rem; */
+}
+
+.intro-statements > h1 {
+  font-weight: bold;
+  margin-top: 2.5rem;
+  margin-left: 1.2rem;
+}
+
+.intro-statements > p {
+  color: grey;
+  font-size: 1.2rem;
+  margin-left: 1.2rem;
   margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
-.intro-statements > h1{
+.intro-image {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Membership Components */
+
+.member-wrapper {
+  background-color: #117fa7;
+}
+
+.member-col-left {
+  margin-top: 6rem;
+  margin-bottom: 12rem;
+}
+
+.member-col-right {
+  margin-top: 6rem;
+}
+
+.member-col-right > div > h4 {
+  color: #ffffff;
   font-weight: bold;
 }
 
-.intro-statements > p{
-  color: grey;
-  font-size: 1.2rem;
+.member-col-right > div > p {
+  color: #ffffff;
 }
 
-.intro-image{
-  margin-top: 1rem;
+.member-col-right > div {
+  margin-bottom: 3.5rem;
+}
+
+.left-matter > h2 {
+  font-weight: bold;
+  color: white;
   margin-bottom: 1rem;
 }
+
+.button {
+  background-color: #000;
+  border: none;
+  border-radius: 2.5rem;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: .7rem;
+  /* margin: 2px 1px; */
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  text-decoration: none;
+}
+
+.statistics {
+  margin-top: 3rem;
+  /* margin-bottom: 3rem; */
+}
+
+.statistics > div > h4 {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.statistics > div > p {
+  color: #fff;
+  font-size: .85rem;
+  line-height: 2;
+  word-spacing: .4rem;
+}
+
+.stats-one,
+.stats-two,
+.stats-three,
+.stats-four {
+  margin-bottom: 3rem;
+}
+
+/* Testimonial Components */
+
+.testimony-wrapper{
+  background-color: #ffffff;
+  /* border-color: orange; */
+}
+
+.testimony-card{
+  /* background-color: grey; */
+  background-color: #E8F1F2;
+
+}
+
+.carousel-container {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.sliderimg{
+  width: 100%;
+  height: 45vh !important;
+  object-fit: cover;
+}
+
+/* Member Lists */
+
+.mem-wrapper {
+  background-color: #fff;
+}
+
+.container > h3 {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  font-weight: bolder;
+}
+
+.single-card {
+  margin-bottom: 3rem;
+}
+
+.card {
+  border: none !important;
+}
+
+.card-body > h5 {
+  font-weight: bold;
+  margin-left: -16px !important;
+}
+
+.card-body > p {
+  font-size: .85rem;
+  line-height: 2;
+  word-spacing: .2rem;
+  color: gray;
+  margin-left: -16px !important;
+}
+
+.card-footer > button {
+  border: none !important;
+  margin-right: .5rem;
+}
+
+.button-directory {
+  background-color: #208AAE;
+  border: none;
+  border-radius: 2.5rem;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: .7rem;
+  /* margin: 2px 1px; */
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.button-directory:hover {
+  text-decoration: none;
+}
+
+#view-button{
+  margin-bottom: 5rem;
+}
+
+
+
