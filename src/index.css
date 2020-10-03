@@ -11,3 +11,96 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+
+/* Header component */
+
+#nav {
+  border: 2px solid red;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 9999;
+}
+
+#header-container{
+  display: inline-block !important;
+}
+
+.sub-container{
+  margin-top: 1.5rem;
+}
+
+.sub-container > li{
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: 900;
+}
+
+.sub-container > li > a:hover{
+  text-decoration-line: none;
+}
+
+
+.sub-container > li:nth-child(1) a,
+.sub-container > li:nth-child(2) a,
+.sub-container > li:nth-child(4) a {
+  color: #000  ;
+}
+
+.sub-container > li:nth-child(5) a {
+  color: #ffffff  ;
+}
+
+
+
+.sub-container > li:last-child{
+  display: block;
+  width: 6rem;
+  background-color: orange;
+  text-align: center;
+  padding-top: .18rem;
+  padding-bottom: .11rem;
+  border-radius: 2rem;
+}
+
+/* Main component */
+
+
+#main{
+  border: 2px solid green;
+  height: 1500px;
+  margin-top: 84px;
+}
+
+/* Introduction component */
+
+
+
+#container-intro{
+  border: 2px solid #000;
+  margin-top: 2.5rem;
+}
+
+.intro-statements{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.intro-statements > h1{
+  font-weight: bold;
+}
+
+.intro-statements > p{
+  color: grey;
+  font-size: 1.2rem;
+}
+
+.intro-image{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
