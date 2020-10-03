@@ -235,11 +235,11 @@ body {
 
 /* Testimonial Components */
 
-.testimony-wrapper{
+.testimony-wrapper {
   background-color: #ffffff;
 
 }
-.testimony-card{
+.testimony-card {
   background-color: #E8F1F2;
 }
 
@@ -248,7 +248,7 @@ body {
   margin-bottom: 5rem;
 }
 
-.sliderimg{
+.sliderimg {
   max-width: 100% !important;
   height: auto !important;
   object-fit: cover;
@@ -331,7 +331,7 @@ body {
   color: #ffffff;
 }
 
-#view-button{
+#view-button {
   margin-bottom: 6rem;
 }
 
@@ -346,7 +346,7 @@ body {
   padding-bottom: 2rem;
 }
 
-.call-wrapper > .container > .row > .col-lg-6 > p{
+.call-wrapper > .container > .row > .col-lg-6 > p {
   margin-top: .9rem;
   color: #ffffff;
   font-weight: bolder;
@@ -354,7 +354,7 @@ body {
   font-family: 'Playfair Display', serif;
 }
 
-.cta-button{
+.cta-button {
 
   background-color: #000;
   border: none;
