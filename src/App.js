@@ -6,18 +6,19 @@ import Introduction from './components/Introduction';
 import Membership from './components/membership';
 import Testimonial from './components/testimonial';
 import Members from './components/members';
+import Call from './components/call';
+import Footer from './components/footer';
 
 const App = () => (
   <>
     <Header />
     <div className="main-wrapper" id="main">
-      {/* <div className="container">
-        <p>Hello World !!!</p>
-      </div> */}
       <Introduction />
       <Membership />
       <Testimonial />
       <Members />
+      <Call />
+      <Footer />
     </div>
   </>
 );
